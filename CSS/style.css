@@ -1,0 +1,48 @@
+* {
+    font-family: 'Space Mono', monospace;
+    color: #286983;
+}
+
+
+body {
+    background-color: #f2e9e1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.new_note {
+    max-width: 60%;
+    border: 0;
+    background-color:#f2e9e1;
+}
+
+.slide_out {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 0%;
+    border: 0;
+    background-color: #f2e9e1;
+    padding-bottom: 80px;
+    position: sticky;
+}
