@@ -46,3 +46,88 @@ footer {
     padding-bottom: 80px;
     position: sticky;
 }
+
+.plus {
+    max-width: 60%;
+    border: 0;
+    background-color:#f2e9e1;
+    font-size: 250%;
+}
+
+.note_block {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+#note {
+    background-color: #fffaf3;
+    border: none;
+}
+
+.save {
+    background-color:#f2e9e1;
+    border: none;
+
+}
+
+.delete {
+    background-color:#f2e9e1;
+    border: none;
+    color: red;
+}
+
+.save_delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.notes_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.slidein {
+    display: flex;
+    border: none;
+    background-color:#fffaf3;
+    font-size: 200%;
+    font-style: bold;
+    justify-content: flex-end;
+    padding-left: 130px;
+}
+
+.slide {
+    width: 175px;
+    position: fixed;
+    background-color: #fffaf3;
+    height: 100%;
+    top: 0;
+}
+
+#my_notes {
+    color: black;
+    font-style: bold
+}
+
+@media screen and (max-width: 767px) {
+    .note_block {
+        width: 200px;
+        height: 100px;
+        margin-left: 200px;
+    }
+
+    .slide {
+        width: 100px;
+        font-size: 10px;  
+    }
+    
+    .slidein {
+        padding-left: 40px;
+        
+    }
+
+}
